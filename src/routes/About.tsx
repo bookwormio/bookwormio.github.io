@@ -8,7 +8,7 @@ const About = () => {
       <header className="App-header">
         <img src={loading_worm} className="App-logo" alt="logo" />
         <p>
-          Welcome to <code>BookWorm</code>'s about page.
+          Welcome to <code>BookWorm</code>'s about page... coming soon!
         </p>
       </header>
     </div>
