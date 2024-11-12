@@ -1,5 +1,5 @@
 import React from "react";
-import loading_worm from "../loading_worm.gif";
+import loading_worm from "../assets/loading_worm.gif";
 import "../App.css";
 
 const Download = () => {

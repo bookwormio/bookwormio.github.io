@@ -1,15 +1,13 @@
 import React from "react";
-import loading_worm from "../loading_worm.gif";
 import "../App.css";
+import { UsersContainer } from "../components/UserInfo/UsersContainer";
+import { users } from "../data/teamData";
 
 const Team = () => {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={loading_worm} className="App-logo" alt="logo" />
-        <p>
-          Welcome to <code>BookWorm</code>'s team page... coming soon!
-        </p>
+        <UsersContainer users={users} />
       </header>
     </div>
   );
