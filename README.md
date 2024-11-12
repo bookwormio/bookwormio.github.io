@@ -54,4 +54,4 @@ The domain routing is configured using AWS Route 53:
 
 ## GitHub Pages Configuration
 
-The site is configured to deploy automatically to GitHub Pages through the `gh-pages` branch. The workflow file can be found in .github/workflows/deploy.yml.
+The site is configured to deploy automatically to GitHub Pages through the `gh-pages` branch. The workflow file can be found in `.github/workflows/deploy.yml`.
