@@ -1,6 +1,6 @@
 # BookWorm Website
 
-This repository contains the source code for BookWorm, a social media platform for book sharing and discovery.
+This is the code for BookWorm's website, aimed at showcasing the BookWorm Project
 
 ## Technical Setup
 
