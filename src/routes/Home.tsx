@@ -8,7 +8,7 @@ const Home = () => {
       <header className="App-header">
         <img src={loading_worm} className="App-logo" alt="logo" />
         <p>
-          Welcome to <code>BookWorm</code>'s home page.
+          Welcome to <code>BookWorm</code>'s home page DEPLOY.
         </p>
       </header>
     </div>
