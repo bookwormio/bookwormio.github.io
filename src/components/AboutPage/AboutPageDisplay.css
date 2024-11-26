@@ -87,6 +87,12 @@
   a:hover {
     text-decoration: underline;
   }
+  .qr-img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    margin-bottom: 1rem;
+  }
   
   
   @media (max-width: 768px) {

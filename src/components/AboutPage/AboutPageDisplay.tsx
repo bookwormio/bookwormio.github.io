@@ -1,6 +1,7 @@
 import React from "react";
 import "./AboutPageDisplay.css";
 import team_pic from "../../assets/team_pic.jpg";
+import testflight_qr_code from "../../assets/testflight_qr_code.png";
 
 const AboutPageDisplay = () => {
   return (
@@ -95,6 +96,15 @@ const AboutPageDisplay = () => {
               reading more social? Join BookWorm today and connect with readers
               who share your passion for stories.
             </p>
+          </div>
+
+          <div className={"about-body"}>
+            <h2>Download on TestFlight ✈️</h2>
+            <img
+              className={"qr-img"}
+              src={testflight_qr_code}
+              alt={"testflight_qr"}
+            ></img>
           </div>
         </div>
       </div>
