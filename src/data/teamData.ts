@@ -1,7 +1,8 @@
-import { User } from "../components/UserInfo/UserInfoBox";
-import riley_headshot from "../assets/riley_headshot.jpg";
 import karena_headshot from "../assets/karena_headshot.jpg";
 import loading_worm from "../assets/loading_worm.gif";
+import nicole_headshot from "../assets/nicole_headshot.jpeg";
+import riley_headshot from "../assets/riley_headshot.jpg";
+import { User } from "../components/UserInfo/UserInfoBox";
 
 export const users: User[] = [
     {
@@ -35,11 +36,11 @@ export const users: User[] = [
   {
     fullName: "Nicole Forrester",
     role: "Project Lead",
-    headShotPath: loading_worm,
+    headShotPath: nicole_headshot,
     biography:
-      "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus.",
-    email: "FAKE_EMAIL@gmail.com",
-    linkedIn: "https://linkedin.com/",
-    github: "https://github.com/",
+      "Nicole is a double major in Computer Science and Applied Mathematics and current Logistics Software Engineer Intern. In the Department of Mathematics, she conducts research on polar bear energetics and movement under the guidance of Professors Ken Golden and Jody Reimer. She enjoys mobile app development and automation using scripting languages. Aspiring to build a career in Software Engineering and Management, she aims to combine her analytical thinking, leadership skills and programming expertise. Outside of work, you will find Nicole on the trails, lifting, reading, or spending time with friends/family.",
+    email: "nicoleforrester07@gmail.com",
+    linkedIn: "https://www.linkedin.com/in/nicole-forrester-5800681a6/",
+    github: "https://github.com/nforr",
   }
 ];
