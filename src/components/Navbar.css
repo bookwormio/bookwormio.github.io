@@ -40,6 +40,7 @@
   
   .nav-link:hover {
     color: #FB6D0B;
+    text-decoration: none;
   }
   
   .nav-link:hover::after,

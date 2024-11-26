@@ -1,15 +1,12 @@
 import React from "react";
-import loading_worm from "../assets/loading_worm.gif";
 import "../App.css";
+import AboutPageDisplay from "../components/AboutPage/AboutPageDisplay";
 
 const About = () => {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={loading_worm} className="App-logo" alt="logo" />
-        <p>
-          Welcome to <code>BookWorm</code>'s about page... coming soon!
-        </p>
+        <AboutPageDisplay />
       </header>
     </div>
   );
