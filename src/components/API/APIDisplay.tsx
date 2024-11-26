@@ -13,7 +13,8 @@ interface APIResponse {
   routes: Route[];
 }
 
-const APIRESPONSE = `{
+// TODO actually fetch this data from the API
+const API_RESPONSE = `{
     "description": "Available API Routes:",
     "routes": [
       {
@@ -50,7 +51,7 @@ const APIRESPONSE = `{
   }`;
 
 const APIDisplay = () => {
-  const data: APIResponse = JSON.parse(APIRESPONSE);
+  const data: APIResponse = JSON.parse(API_RESPONSE);
 
   const formatDescription = (description: string | null) => {
     if (!description) return null;

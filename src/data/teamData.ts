@@ -5,12 +5,12 @@ import riley_headshot from "../assets/riley_headshot.jpg";
 import { User } from "../components/UserInfo/UserInfoBox";
 
 export const users: User[] = [
-    {
+  {
     fullName: "Riley Crahen",
     role: "Founder",
     headShotPath: riley_headshot,
     biography:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+      "Riley is a graduating computer science student at the University of Utah and the founder of Bookworm. With extensive experience in full-stack development from internships at companies like Instructure and Join, he brings expertise in building scalable React applications and a passion for elegant, high-performance software solutions. As lead engineer, Riley implemented rigorous code review processes and mentored team members in React and TypeScript, helping Bookworm achieve top ranking in their class and secure startup funding. When not coding, he can be found training for ultra-marathons or exploring the western deserts of the United States. Riley's leadership reflects his belief that with the right team and mindset, anything is possible.",
     email: "rileycrahen@gmail.com",
     linkedIn: "https://www.linkedin.com/in/riley-crahen-1a65b21a5/",
     github: "https://github.com/rilescode",
@@ -42,5 +42,5 @@ export const users: User[] = [
     email: "nicoleforrester07@gmail.com",
     linkedIn: "https://www.linkedin.com/in/nicole-forrester-5800681a6/",
     github: "https://github.com/nforr",
-  }
+  },
 ];

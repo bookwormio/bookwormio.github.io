@@ -1,5 +1,6 @@
 import React from "react";
 import "./AboutPageDisplay.css";
+import team_pic from "../../assets/team_pic.jpg";
 
 const AboutPageDisplay = () => {
   return (
@@ -8,6 +9,10 @@ const AboutPageDisplay = () => {
         <div className={"about-header"}>
           <h1>About BookWorm</h1>
           <div className={"about-subtitle"}>Where reading becomes social</div>
+        </div>
+
+        <div className={"about-image"}>
+          <img src={team_pic} alt="team_pic" />
         </div>
 
         <div className={"about-sections"}>
