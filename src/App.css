@@ -23,14 +23,13 @@ html, body, #root {
 }
 
 .App-header {
-  background-color: #f0efea;
+  background-color: #ffffff;
   flex: 1;
   height: max-content;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
   color: black;
 }
 
