@@ -1,0 +1,73 @@
+.tutorial-page {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2rem 200px;
+  }
+  
+  .tutorial-header {
+    text-align: center;
+  }
+  
+  .tutorial-header h1 {
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .tutorial-header h1 img {
+    height: 1em;
+    width: auto;
+  }
+  
+  .tutorial-subtitle {
+    color: #6b7280;
+    font-size: 1.2rem;
+  }
+  
+  .tutorial-sections {
+    margin-top: 3rem;
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+  }
+  
+  /* Base styles for all tutorial sections */
+  .tutorial-section {
+    display: flex;
+    align-items: flex-start;
+    gap: 2rem;
+    padding: 1rem;
+  }
+
+  .tutorial-section.left-image .section-content {
+    text-align: right;
+  }
+
+  .tutorial-section.right-image .section-content {
+    text-align: left;
+  }
+  
+  .section-image {
+    width: 150px;
+  }
+  
+  .section-image img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .section-content {
+    flex: 1;
+    max-width: 500px
+  }
+  
+  .section-content h2 {
+    margin-bottom: 1rem;
+    color: #111827;
+    text-align: inherit;
+  }
+  
