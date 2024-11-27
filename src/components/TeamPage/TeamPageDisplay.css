@@ -1,0 +1,36 @@
+.team-page {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2rem;
+  }
+  
+  .team-content {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    width: 100%;
+  }
+  
+  .team-header {
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+  
+  .team-header h1 {
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .team-header h1 img {
+    height: 1em;
+    width: auto;
+    vertical-align: baseline;
+  }
+  
+  .team-subtitle {
+    font-size: 1.2rem;
+    color: #6b7280;
+  }

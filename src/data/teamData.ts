@@ -2,7 +2,7 @@ import karena_headshot from "../assets/karena_headshot.jpg";
 import nicole_headshot from "../assets/nicole_headshot.jpeg";
 import riley_headshot from "../assets/riley_headshot.jpg";
 import sam_headshot from "../assets/sam_headshot.jpg";
-import { User } from "../components/UserInfo/UserInfoBox";
+import { User } from "../components/TeamPage/UserInfo/UserInfoBox";
 
 export const users: User[] = [
   {
@@ -30,7 +30,7 @@ export const users: User[] = [
     role: "Lead Architect",
     headShotPath: sam_headshot,
     biography:
-      "Sam is graduating with a Bachelor's degree in Computer Science with a minor in Business. Before BookWorm, Sam gained experience as a full stack software engineer helping develop for We Care Insurance and PayIt before eventually joining the University of Utah’s School of Atmospheric Science Department to help build geospatial web applications. Sam hopes to become a full-stack software engineer where he can use his skills in full-stack development and system architecture..",
+      "Sam is graduating with a Bachelor's degree in Computer Science with a minor in Business. Before BookWorm, Sam gained experience as a full stack software engineer helping develop for We Care Insurance and PayIt before eventually joining the University of Utah’s School of Atmospheric Science Department to help build geospatial web applications. Sam hopes to become a full-stack software engineer where he can use his skills in full-stack development and system architecture.",
     email: "samctensen@gmail.com",
     linkedIn: "https://www.linkedin.com/in/samctensen/",
     github: "https://github.com/samctensen/",
@@ -40,7 +40,7 @@ export const users: User[] = [
     role: "Project Lead",
     headShotPath: nicole_headshot,
     biography:
-      "Nicole is a double major in Computer Science and Applied Mathematics and current Logistics Software Engineer Intern. In the Department of Mathematics, she conducts research on polar bear energetics and movement under the guidance of Professors Ken Golden and Jody Reimer. She enjoys mobile app development and automation using scripting languages. Aspiring to build a career in Software Engineering and Management, she aims to combine her analytical thinking, leadership skills and programming expertise. Outside of work, you will find Nicole on the trails, lifting, reading, or spending time with friends/family.",
+      "Nicole is a double major in Computer Science and Applied Mathematics and current Logistics Software Engineer Intern. In the Department of Mathematics, she conducts research on polar bear energetics and movement under the guidance of Professors Ken Golden and Jody Reimer. She enjoys mobile app development and automation using scripting languages. Aspiring to build a career in Software Engineering and Management, she aims to combine her analytical thinking, leadership skills, and programming expertise. Outside of work, you will find Nicole on the trails, lifting, reading, or spending time with friends/family.",
     email: "nicoleforrester07@gmail.com",
     linkedIn: "https://www.linkedin.com/in/nicole-forrester-5800681a6/",
     github: "https://github.com/nforr",

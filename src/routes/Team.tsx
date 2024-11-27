@@ -1,13 +1,13 @@
 import React from "react";
 import "../App.css";
-import { UsersContainer } from "../components/UserInfo/UsersContainer";
 import { users } from "../data/teamData";
+import TeamPageDisplay from "../components/TeamPage/TeamPageDisplay";
 
 const Team = () => {
   return (
     <div className="App">
       <header className="App-header">
-        <UsersContainer users={users} />
+        <TeamPageDisplay users={users} />
       </header>
     </div>
   );

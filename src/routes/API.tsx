@@ -1,4 +1,5 @@
 import APIDisplay from "../components/API/APIDisplay";
+import "../App.css";
 import React from "react";
 
 const API = () => {

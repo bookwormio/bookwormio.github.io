@@ -1,22 +1,47 @@
+
+.api-page {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+.api-content {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  width: 100%;
+}
+
+
 .api-docs {
-    max-width: 800px;
-    margin: 0 auto;
-    padding: 2rem;
-  }
+  max-width: 800px;
+  margin: 0 auto;
+}
   
-  .api-header {
-    text-align: center;
-    margin-bottom: 2rem;
-  }
+.api-header {
+  text-align: center;
+  margin-bottom: 2rem;
+}
   
-  .api-header h1 {
-    font-size: 2rem;
-    margin-bottom: 0.5rem;
-  }
+.api-header h1 {
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
   
-  .base-url {
-    color: #666;
-  }
+.api-header h1 img {
+  height: 1em;
+  width: auto;
+  vertical-align: baseline;
+}
+  
+
+.api-subtitle {
+  font-size: 1.2rem;
+  color: #6b7280;
+}
   
   .endpoint-card {
     border: 1px solid #e5e7eb;

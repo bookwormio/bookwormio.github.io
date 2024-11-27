@@ -1,5 +1,6 @@
 import React from "react";
 import "./APIDisplay.css";
+import bookworm_icon from "../../assets/bookworm_icon.png";
 
 interface Route {
   description: string | null;
@@ -65,91 +66,101 @@ const APIDisplay = () => {
   };
 
   return (
-    <div className="api-docs">
-      <div className="api-header">
-        <h1>BookWorm API Documentation</h1>
-        <p className="base-url">Base URL: api.bookwormio.com</p>
-      </div>
-
-      {data.routes.map((route) => {
-        const formattedDesc = route.description
-          ? formatDescription(route.description)
-          : null;
-
-        return (
-          <div key={route.route} className="endpoint-card">
-            <div className="endpoint-header">
-              <div className="endpoint-title">
-                <h2>{route.endpoint}</h2>
-                <span className="endpoint-route">{route.route}</span>
-              </div>
-              <div className="method-tags">
-                {route.methods.map((method) => (
-                  <span
-                    key={method}
-                    className={`method ${method.toLowerCase()}`}
-                  >
-                    {method}
-                  </span>
-                ))}
-              </div>
-            </div>
-            <div className="endpoint-content">
-              {formattedDesc && (
-                <>
-                  {formattedDesc.description && (
-                    <p>{formattedDesc.description}</p>
-                  )}
-
-                  {formattedDesc.parameters && (
-                    <div className="params-section">
-                      <h3>Parameters</h3>
-                      <div className="params-box">
-                        {formattedDesc.parameters
-                          .split("\n")
-                          .map((param, index) => {
-                            const trimmed = param.trim();
-                            if (!trimmed) return null;
-                            const [key, ...rest] = trimmed.split(":");
-                            return (
-                              <p key={index}>
-                                {key && <code>{key.trim()}</code>}
-                                {rest.length > 0 &&
-                                  `: ${rest.join(":").trim()}`}
-                              </p>
-                            );
-                          })}
-                      </div>
-                    </div>
-                  )}
-
-                  {formattedDesc.returns && (
-                    <div className="params-section">
-                      <h3>Returns</h3>
-                      <div className="params-box">
-                        {formattedDesc.returns
-                          .split("\n")
-                          .map((returnVal, index) => {
-                            const trimmed = returnVal.trim();
-                            if (!trimmed) return null;
-                            const [key, ...rest] = trimmed.split(":");
-                            return (
-                              <p key={index}>
-                                {key && <code>{key.trim()}</code>}
-                                {rest.length > 0 &&
-                                  `: ${rest.join(":").trim()}`}
-                              </p>
-                            );
-                          })}
-                      </div>
-                    </div>
-                  )}
-                </>
-              )}
-            </div>
+    <div className="api-page">
+      <div className="api-content">
+        <div className="api-header">
+          <h1>
+            BookW
+            <img src={bookworm_icon} alt="o" />
+            rm API
+          </h1>
+          <div className="api-subtitle">
+            Base URL: https://api.bookwormio.com
           </div>
-        );
-      })}
+        </div>
+
+        <div className="api-docs">
+          {data.routes.map((route) => {
+            const formattedDesc = route.description
+              ? formatDescription(route.description)
+              : null;
+
+            return (
+              <div key={route.route} className="endpoint-card">
+                <div className="endpoint-header">
+                  <div className="endpoint-title">
+                    <h2>{route.endpoint}</h2>
+                    <span className="endpoint-route">{route.route}</span>
+                  </div>
+                  <div className="method-tags">
+                    {route.methods.map((method) => (
+                      <span
+                        key={method}
+                        className={`method ${method.toLowerCase()}`}
+                      >
+                        {method}
+                      </span>
+                    ))}
+                  </div>
+                </div>
+                <div className="endpoint-content">
+                  {formattedDesc && (
+                    <>
+                      {formattedDesc.description && (
+                        <p>{formattedDesc.description}</p>
+                      )}
+
+                      {formattedDesc.parameters && (
+                        <div className="params-section">
+                          <h3>Parameters</h3>
+                          <div className="params-box">
+                            {formattedDesc.parameters
+                              .split("\n")
+                              .map((param, index) => {
+                                const trimmed = param.trim();
+                                if (!trimmed) return null;
+                                const [key, ...rest] = trimmed.split(":");
+                                return (
+                                  <p key={index}>
+                                    {key && <code>{key.trim()}</code>}
+                                    {rest.length > 0 &&
+                                      `: ${rest.join(":").trim()}`}
+                                  </p>
+                                );
+                              })}
+                          </div>
+                        </div>
+                      )}
+
+                      {formattedDesc.returns && (
+                        <div className="params-section">
+                          <h3>Returns</h3>
+                          <div className="params-box">
+                            {formattedDesc.returns
+                              .split("\n")
+                              .map((returnVal, index) => {
+                                const trimmed = returnVal.trim();
+                                if (!trimmed) return null;
+                                const [key, ...rest] = trimmed.split(":");
+                                return (
+                                  <p key={index}>
+                                    {key && <code>{key.trim()}</code>}
+                                    {rest.length > 0 &&
+                                      `: ${rest.join(":").trim()}`}
+                                  </p>
+                                );
+                              })}
+                          </div>
+                        </div>
+                      )}
+                    </>
+                  )}
+                </div>
+              </div>
+            );
+          })}
+        </div>
+      </div>
     </div>
   );
 };

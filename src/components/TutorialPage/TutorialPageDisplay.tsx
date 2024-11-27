@@ -1,6 +1,13 @@
 import React from "react";
 import "./TutorialPageDisplay.css";
-import placeholder_screenshot from "../../assets/placeholder_screenshot.png";
+import sign_in from "../../assets/app_screenshots/sign_in.png";
+import book_search from "../../assets/app_screenshots/book_search.png";
+import user_search from "../../assets/app_screenshots/user_search.png";
+import profile from "../../assets/app_screenshots/profile.png";
+import create_post from "../../assets/app_screenshots/create_post.png";
+import posts_feed from "../../assets/app_screenshots/posts_feed.png";
+import generate_recs from "../../assets/app_screenshots/generate_recs.png";
+
 import bookworm_icon from "../../assets/bookworm_icon.png";
 
 const TutorialPageDisplay = () => {
@@ -20,10 +27,7 @@ const TutorialPageDisplay = () => {
           {/* Section 1 - Left Image */}
           <div className="tutorial-section left-image">
             <div className="section-image">
-              <img
-                src={placeholder_screenshot}
-                alt="Create Account Screenshot"
-              />
+              <img src={sign_in} alt="Create Account Screenshot" />
             </div>
             <div className="section-content">
               <h2>Create an Account or Sign In</h2>
@@ -45,14 +49,14 @@ const TutorialPageDisplay = () => {
               </p>
             </div>
             <div className="section-image">
-              <img src={placeholder_screenshot} alt="Search Page Screenshot" />
+              <img src={book_search} alt="Search Page Screenshot" />
             </div>
           </div>
 
           {/* Section 3 - Left Image */}
           <div className="tutorial-section left-image">
             <div className="section-image">
-              <img src={placeholder_screenshot} alt="User Search Screenshot" />
+              <img src={user_search} alt="User Search Screenshot" />
             </div>
             <div className="section-content">
               <h2>Connect with Fellow Readers</h2>
@@ -75,14 +79,14 @@ const TutorialPageDisplay = () => {
               </p>
             </div>
             <div className="section-image">
-              <img src={placeholder_screenshot} alt="Profile Page Screenshot" />
+              <img src={profile} alt="Profile Page Screenshot" />
             </div>
           </div>
 
           {/* Section 5 - Left Image */}
           <div className="tutorial-section left-image">
             <div className="section-image">
-              <img src={placeholder_screenshot} alt="Create Post Screenshot" />
+              <img src={create_post} alt="Create Post Screenshot" />
             </div>
             <div className="section-content">
               <h2>Share Your Reading Journey</h2>
@@ -105,17 +109,14 @@ const TutorialPageDisplay = () => {
               </p>
             </div>
             <div className="section-image">
-              <img src={placeholder_screenshot} alt="Posts Feed Screenshot" />
+              <img src={posts_feed} alt="Posts Feed Screenshot" />
             </div>
           </div>
 
           {/* Section 7 - Left Image */}
           <div className="tutorial-section left-image">
             <div className="section-image">
-              <img
-                src={placeholder_screenshot}
-                alt="Recommendations Screenshot"
-              />
+              <img src={generate_recs} alt="Recommendations Screenshot" />
             </div>
             <div className="section-content">
               <h2>Find Your Next Great Read</h2>
