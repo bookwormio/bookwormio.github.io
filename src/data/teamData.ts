@@ -1,7 +1,7 @@
 import karena_headshot from "../assets/karena_headshot.jpg";
-import loading_worm from "../assets/loading_worm.gif";
 import nicole_headshot from "../assets/nicole_headshot.jpeg";
 import riley_headshot from "../assets/riley_headshot.jpg";
+import sam_headshot from "../assets/sam_headshot.jpg";
 import { User } from "../components/UserInfo/UserInfoBox";
 
 export const users: User[] = [
@@ -22,16 +22,18 @@ export const users: User[] = [
     biography:
       "Using her major in Data Science, Karena is interested in using cutting-edge AI/ML tools to improve the wellbeing of the earth and those who inhabit it. Aside from her contributions to the Bookworm project, Karena has worked as an AI/ML engineer in the realm of health and human services to improve the efficacy of care provided by social workers and their partner organizations. She is passionate about the outdoors, social progress, and pickleball. When not doing work in a cafe, she can be found hiking in the foothills, biking around the city, or reading with her cat.",
     email: "karenajklink@icloud.com",
+    linkedIn: "https://www.linkedin.com/in/karena-klinkenberg/",
+    github: "https://github.com/karenaklinkenberg",
   },
   {
     fullName: "Sam Christensen",
     role: "Lead Architect",
-    headShotPath: loading_worm,
+    headShotPath: sam_headshot,
     biography:
-      "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet.",
-    email: "FAKE_EMAIL@gmail.com",
-    linkedIn: "https://linkedin.com/",
-    github: "https://github.com/samchristensen",
+      "Sam is graduating with a Bachelor's degree in Computer Science with a minor in Business. Before BookWorm, Sam gained experience as a full stack software engineer helping develop for We Care Insurance and PayIt before eventually joining the University of Utah’s School of Atmospheric Science Department to help build geospatial web applications. Sam hopes to become a full-stack software engineer where he can use his skills in full-stack development and system architecture..",
+    email: "samctensen@gmail.com",
+    linkedIn: "https://www.linkedin.com/in/samctensen/",
+    github: "https://github.com/samctensen/",
   },
   {
     fullName: "Nicole Forrester",
