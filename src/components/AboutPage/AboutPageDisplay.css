@@ -37,8 +37,17 @@
   
   .about-header h1 {
     font-size: 2rem;
-    color: #111827;
-    margin: 0.5rem 0;
+    margin-bottom: 0.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .about-header h1 img {
+    height: 1em; /* This makes the image height match the font size */
+    width: auto;
+    /* margin: 0 0.1em; Add a small space around the icon */
+    vertical-align: baseline;
   }
   
   .about-subtitle {

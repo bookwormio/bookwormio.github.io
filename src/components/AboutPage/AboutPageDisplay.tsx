@@ -2,13 +2,18 @@ import React from "react";
 import "./AboutPageDisplay.css";
 import team_pic from "../../assets/team_pic.jpg";
 import testflight_qr_code from "../../assets/testflight_qr_code.png";
+import bookworm_icon from "../../assets/bookworm_icon.png";
 
 const AboutPageDisplay = () => {
   return (
     <div className={"about-page"}>
       <div className={"about-content"}>
         <div className={"about-header"}>
-          <h1>About BookWorm</h1>
+          <h1>
+            BookW
+            <img src={bookworm_icon} alt="o" />
+            rm
+          </h1>
           <div className={"about-subtitle"}>Where reading becomes social</div>
         </div>
 
