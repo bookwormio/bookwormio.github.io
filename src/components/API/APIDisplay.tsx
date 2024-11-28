@@ -72,7 +72,7 @@ const APIDisplay = () => {
           <h1>
             BookW
             <img src={bookworm_icon} alt="o" />
-            rm Recommendation API
+            rm API
           </h1>
           <div className="api-subtitle">
             Base URL: https://api.bookwormio.com
