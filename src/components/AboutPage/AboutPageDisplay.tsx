@@ -17,23 +17,22 @@ const AboutPageDisplay = () => {
           <div className={"about-subtitle"}>Where reading becomes social</div>
         </div>
 
+        <div className={"about-description"}>
+          <p>
+            <strong>
+              BookWorm transforms the solitary act of reading into a social
+              experience. We've created a space where book lovers can connect,
+              share their reading journeys, and discover their next favorite
+              stories together.
+            </strong>
+          </p>
+        </div>
         <div className={"about-image"}>
           <img src={team_pic} alt="team_pic" />
         </div>
 
         <div className={"about-sections"}>
           <div className={"about-main"}>
-            <div className={"about-description"}>
-              <p>
-                <strong>
-                  BookWorm transforms the solitary act of reading into a social
-                  experience. We've created a space where book lovers can
-                  connect, share their reading journeys, and discover their next
-                  favorite stories together.
-                </strong>
-              </p>
-            </div>
-
             <div className={"about-body"}>
               <h2>Our Mission 🚀</h2>
               <p>
@@ -104,7 +103,12 @@ const AboutPageDisplay = () => {
           </div>
 
           <div className={"about-body"}>
-            <h2>Download on TestFlight ✈️</h2>
+            <h2>
+              <a href="https://testflight.apple.com/join/PWj5NKZW">
+                Download on TestFlight
+              </a>
+              {"  ✈️"}
+            </h2>
             <img
               className={"qr-img"}
               src={testflight_qr_code}
