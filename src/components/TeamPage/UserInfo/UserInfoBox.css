@@ -84,3 +84,74 @@
     color: #6b7280;
     text-decoration: underline;
   }
+
+  @media (max-width: 768px) {
+    .user-info-box {
+      flex-direction: column;
+      padding: 1rem;
+      margin: 0.5rem;
+      gap: 1.5rem;
+    }
+   
+    .user-info {
+      flex-direction: column;
+      gap: 1rem;
+    }
+   
+    .user-info-header {
+      min-width: unset;
+      width: 100%;
+    }
+   
+    .user-info-headshot {
+      width: 120px;
+      height: 120px;
+    }
+   
+    .user-info-header h1 {
+      font-size: 1.25rem;
+    }
+   
+    .user-info-bio {
+      text-align: center;
+      padding-right: 0;
+    }
+   
+    .user-info-contact {
+      min-width: unset;
+      width: 100%;
+      text-align: center;
+    }
+   
+    .user-info-contact h3 {
+      font-size: 1.1rem;
+    }
+   }
+   
+   @media (max-width: 480px) {
+    .user-info-box {
+      padding: 0.75rem;
+      margin: 0.25rem;
+    }
+   
+    .user-info-headshot {
+      width: 100px;
+      height: 100px;
+    }
+   
+    .user-info-header h1 {
+      font-size: 1.1rem;
+    }
+   
+    .user-info-header h2 {
+      font-size: 0.9rem;
+    }
+   
+    .user-info-bio p {
+      font-size: 0.9rem;
+    }
+   
+    .user-info-contact-links {
+      font-size: 0.9rem;
+    }
+   }

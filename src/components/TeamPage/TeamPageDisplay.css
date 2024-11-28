@@ -34,3 +34,39 @@
     font-size: 1.2rem;
     color: #6b7280;
   }
+
+  @media (max-width: 768px) {
+    .team-page {
+      padding: 1rem;
+    }
+   
+    .team-content {
+      gap: 1.5rem;
+    }
+   
+    .team-header h1 {
+      font-size: 1.5rem;  
+    }
+   
+    .team-subtitle {
+      font-size: 1rem;
+    }
+   
+    .team-header {
+      margin-bottom: 1.5rem;
+    }
+   }
+   
+   @media (max-width: 480px) {
+    .team-page {
+      padding: 0.75rem;
+    }
+   
+    .team-header h1 {
+      font-size: 1.25rem;
+    }
+   
+    .team-content {
+      gap: 1rem;
+    }
+   }

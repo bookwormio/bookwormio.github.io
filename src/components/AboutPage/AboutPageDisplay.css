@@ -106,18 +106,47 @@
   @media (max-width: 768px) {
     .about-page {
       padding: 1rem;
+      margin: 0 auto;
+    }
+    
+    .about-image {
+      margin: 1rem auto;
+      max-width: 100%;
+    }
+    
+    .about-content {
+      gap: 1rem;
     }
     
     .about-header h1 {
-      font-size: 1.75rem;
+      font-size: 1.5rem;
     }
     
-    .about-subtitle {
+    .about-sections {
+      gap: 1.5rem;
+    }
+    
+    .about-description p {
       font-size: 1rem;
     }
     
-    .about-body{
-      padding: 1.5rem;
+    .about-body {
+      padding: 1rem;
+    }
+    
+    .qr-img {
+      width: 150px;
+      height: 150px;
     }
   }
   
+  @media (max-width: 480px) {
+    .about-header h1 {
+      font-size: 1.25rem;
+    }
+    
+    .qr-img {
+      width: 120px;
+      height: 120px;
+    }
+  }
