@@ -3,11 +3,11 @@
   margin: 0 auto;
   padding: 2rem;
   }
-  
+
   .tutorial-header {
     text-align: center;
   }
-  
+
   .tutorial-header h1 {
     font-size: 2rem;
     margin-bottom: 0.5rem;
@@ -15,24 +15,24 @@
     align-items: center;
     justify-content: center;
   }
-  
+
   .tutorial-header h1 img {
     height: 1em;
     width: auto;
   }
-  
+
   .tutorial-subtitle {
     color: #6b7280;
     font-size: 1.2rem;
   }
-  
+
   .tutorial-sections {
     margin-top: 3rem;
     display: flex;
     flex-direction: column;
     gap: 3rem;
   }
-  
+
   /* Base styles for all tutorial sections */
   .tutorial-section {
     display: flex;
@@ -48,87 +48,26 @@
   .tutorial-section.right-image .section-content {
     text-align: left;
   }
-  
+
   .section-image {
     width: 150px;
   }
-  
+
   .section-image img {
     width: 100%;
     height: auto;
     border-radius: 8px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   }
-  
+
   .section-content {
     flex: 1;
     max-width: 500px
   }
-  
+
   .section-content h2 {
     margin-bottom: 1rem;
     color: #111827;
     text-align: inherit;
   }
   
-  @media (max-width: 768px) {
-    .tutorial-page {
-      padding: 1rem;
-    }
-   
-    .tutorial-header h1 {
-      font-size: 1.5rem;
-    }
-   
-    .tutorial-subtitle {
-      font-size: 1rem;
-    }
-   
-    .tutorial-sections {
-      margin-top: 2rem;
-      gap: 2rem;
-    }
-   
-    .tutorial-section {
-      flex-direction: column;
-      align-items: center;
-      gap: 1rem;
-      padding: 0.75rem;
-    }
-   
-    .tutorial-section.left-image .section-content,
-    .tutorial-section.right-image .section-content {
-      text-align: center;
-    }
-   
-    .section-image {
-      width: 120px;
-    }
-   
-    .section-content {
-      max-width: 100%;
-    }
-   }
-   
-   @media (max-width: 480px) {
-    .tutorial-page {
-      padding: 0.75rem;
-    }
-   
-    .tutorial-header h1 {
-      font-size: 1.25rem;
-    }
-   
-    .tutorial-sections {
-      margin-top: 1.5rem;
-      gap: 1.5rem;
-    }
-   
-    .tutorial-section {
-      padding: 0.5rem;
-    }
-   
-    .section-image {
-      width: 100px;
-    }
-   }
