@@ -40,7 +40,7 @@ export const users: User[] = [
     role: "Project Lead",
     headShotPath: nicole_headshot,
     biography:
-      "Nicole is a double major in Computer Science and Applied Mathematics and current Logistics Software Engineer Intern. In the Department of Mathematics, she conducts research on polar bear energetics and movement under the guidance of Professors Ken Golden and Jody Reimer. She enjoys mobile app development and automation using scripting languages. Aspiring to build a career in Software Engineering and Management, she aims to combine her analytical thinking, leadership skills, and programming expertise. Outside of work, you will find Nicole on the trails, lifting, reading, or spending time with friends/family.",
+      "Nicole Forrester is a double major in Computer Science and Applied Mathematics and currently a Logistics Software Engineer Intern. She conducts research in the Department of Mathematics on polar bear energetics and movement under the guidance of Professors Ken Golden and Jody Reimer. With a passion for software development and automation using scripting languages, Nicole aspires to build a career in software engineering and management. She aims to leverage her analytical thinking, leadership skills, and programming expertise to solve complex problems and lead impactful projects. Nicole is excited to begin her next chapter as a Cloud Release Engineer at HashiCorp. Outside of work, you can find her exploring trails, lifting weights, reading, or spending quality time with friends and family.",
     email: "nicoleforrester07@gmail.com",
     linkedIn: "https://www.linkedin.com/in/nicole-forrester-5800681a6/",
     github: "https://github.com/nforr",
