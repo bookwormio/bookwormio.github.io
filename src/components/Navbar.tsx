@@ -9,6 +9,7 @@ const Navbar = () => {
         <NavLink to="/team" label="Team" />
         <NavLink to="/tutorial" label="Tutorial" />
         <NavLink to="/api" label="API" />
+        <NavLink to="/privacy" label="Privacy Policy" />
       </div>
     </nav>
   );

@@ -1,12 +1,12 @@
-import React from "react";
+import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
+import { Route, Routes } from "react-router-dom";
 import "./App.css";
 import Navbar from "./components/Navbar";
-import { Route, Routes } from "react-router-dom";
+import API from "./routes/API";
 import Home from "./routes/Home";
+import Privacy from "./routes/Privacy";
 import Team from "./routes/Team";
 import Tutorial from "./routes/Tutorial";
-import API from "./routes/API";
-import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 
 function App() {
   const queryClient = new QueryClient();
@@ -19,6 +19,7 @@ function App() {
           <Route path="/team" element={<Team />} />
           <Route path="/tutorial" element={<Tutorial />} />
           <Route path="/api" element={<API />} />
+          <Route path="/privacy" element={<Privacy />} />
         </Routes>
       </QueryClientProvider>
     </>
