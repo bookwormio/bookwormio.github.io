@@ -97,11 +97,17 @@
   a:hover {
     text-decoration: underline;
   }
-  .qr-img {
-    width: 200px;
-    height: 200px;
+  .app-img {
+    width: 600px;
+    height: 314px;
     object-fit: cover;
+    border-radius: 8px;
     margin-bottom: 1rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  .app-img:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
   }
   
   
@@ -137,9 +143,9 @@
       padding: 1rem;
     }
     
-    .qr-img {
-      width: 150px;
-      height: 150px;
+    .app-img {
+      width: 600px;
+      height: 314px;
     }
   }
   
@@ -148,8 +154,8 @@
       font-size: 1.25rem;
     }
     
-    .qr-img {
-      width: 120px;
-      height: 120px;
+    .app-img {
+      width: 300px;
+      height: 157px;
     }
   }

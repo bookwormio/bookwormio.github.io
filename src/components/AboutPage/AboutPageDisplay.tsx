@@ -1,7 +1,7 @@
 import React from "react";
 import "./AboutPageDisplay.css";
 import team_pic from "../../assets/team_pic.jpg";
-import testflight_qr_code from "../../assets/testflight_qr_code.png";
+import app_link_card_preview from "../../assets/app_link_card_preview_1200_628.png";
 import bookworm_icon from "../../assets/bookworm_icon.png";
 
 const AboutPageDisplay = () => {
@@ -104,16 +104,18 @@ const AboutPageDisplay = () => {
 
           <div className={"about-body"}>
             <h2>
-              <a href="https://testflight.apple.com/join/PWj5NKZW">
-                Download on TestFlight
+              <a href="https://apps.apple.com/us/app/bookworm-io/id6737710220">
+                Download on the App Store
               </a>
               {"  ✈️"}
             </h2>
+            <a href="https://apps.apple.com/us/app/bookworm-io/id6737710220">
             <img
-              className={"qr-img"}
-              src={testflight_qr_code}
-              alt={"testflight_qr"}
+              className={"app-img"}
+              src={app_link_card_preview}
+              alt={"app_link_card_preview"}
             ></img>
+            </a>
           </div>
         </div>
       </div>
