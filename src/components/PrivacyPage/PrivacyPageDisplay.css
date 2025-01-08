@@ -1,28 +1,33 @@
-body {
+.body-class {
   font-family: Arial, sans-serif;
   line-height: 1.6;
   margin: 20px;
   padding: 0;
-  background-color: #f9f9f9;
   color: #333;
 }
-h1, h2 {
+
+.heading-primary, .heading-secondary {
   color: #444;
 }
-h1 {
+
+.heading-primary {
   text-align: center;
 }
-h2, p, li {
+
+.text-left {
   text-align: left;
 }
-a {
+
+.link-class {
   color: #0066cc;
   text-decoration: none;
 }
-a:hover {
+
+.link-hover-class:hover {
   text-decoration: underline;
 }
-.container {
+
+.container-class {
   max-width: 800px;
   margin: auto;
   background: #fff;
@@ -30,7 +35,8 @@ a:hover {
   border-radius: 8px;
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
 }
-footer {
+
+.footer-class {
   text-align: left;
   margin-top: 20px;
   font-size: 0.9em;
