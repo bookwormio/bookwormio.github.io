@@ -3,6 +3,7 @@ import "./AboutPageDisplay.css";
 import team_pic from "../../assets/team_pic.jpg";
 import app_link_card_preview from "../../assets/app_link_card_preview_1200_628.png";
 import bookworm_icon from "../../assets/bookworm_icon.png";
+import { GITHUB_URL } from "../../constants";
 
 const AboutPageDisplay = () => {
   return (
@@ -91,7 +92,7 @@ const AboutPageDisplay = () => {
               Want to see how we built it?
               <strong>
                 {" "}
-                <a href="https://github.com/bookwormio/bookworm">View our code on GitHub.</a>
+                <a href={GITHUB_URL}>View our code on GitHub.</a>
               </strong>{" "}
             </p>
           </div>
