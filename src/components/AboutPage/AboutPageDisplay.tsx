@@ -87,6 +87,12 @@ const AboutPageDisplay = () => {
               </strong>{" "}
               deployed on AWS Elastic Beanstalk, ensuring you always find your
               next great read.
+              <p></p>
+              Want to see how we built it?
+              <strong>
+                {" "}
+                <a href="https://github.com/bookwormio/bookworm">View our code on GitHub.</a>
+              </strong>{" "}
             </p>
           </div>
 
